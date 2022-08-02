@@ -1,0 +1,436 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Manrope', sans-serif;
+}
+.card-body{
+    padding: 1em 2em;
+}
+.btn-light-discription{
+    color: #00A284;
+    padding: 10px 40px;
+    border-radius: 100px;
+    font-size: 13px;
+    background-color: #fff;
+}
+.btn-light{
+    background-color: #F6F6F6 !important;
+}
+p{
+    font-family: 'Manrope',sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #B1B1B1;
+}
+h1{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 46px;
+    color: white;
+}
+h2{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    color: white;
+}
+h4{
+    font-family: 'Manrope';
+    font-style: normal;    
+    font-weight: 800;
+    font-size: 30px;
+}
+h5{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+}
+h6{
+   font-family: 'Manrope';
+   font-style: normal;
+   font-weight: 800;
+   font-size: 19px;
+   color: #000000;
+}
+.card{
+    border: 1.13113px solid #DCE9E2;
+}
+.navbar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: fixed;
+    width: 100%;
+    z-index: 99999;
+}
+.nav-item {
+    padding: 0.5em 1em;
+}
+.nav-link{
+    color: rgba(255, 255, 255, 0.486);
+    font-weight: 400;
+    font-size: 16px;
+}
+.nav-link:focus, .nav-link:hover {
+    color: rgb(228 239 255 / 70%);
+}
+.nav-link.active{
+    color: rgba(255, 255, 255, 0.9);
+    font-family: 'Manrope';
+    font-weight: 900;
+}
+.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
+    color: rgb(255 255 255 / 90%);
+    border-bottom: 2px solid white;
+}
+.bg-light {
+    --bs-bg-opacity: 0;
+    background: linear-gradient(110.31deg, #00314E 3.64%, #06537E 98.11%)!important;
+}
+.main {
+    background: url(D:\DoctoClick\images\doctor.png);
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow: auto;
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+}
+.btn-success{
+    background: #00a384;
+    border-radius: 34px;
+    padding: 12px 40px;
+    color: white;
+    font-size: 13px;
+    font-weight: 400;
+    font-family: 'Manrope', sans-serif;
+    border: none;
+}
+.btn-success:active{
+    background: #009c80;
+}
+.btn-success:focus{
+    background: #00c9a4;
+    color: white;
+    outline: 0px;
+    box-shadow: var(--bs-btn-focus-box-shadow);
+}
+.btn-success:hover{
+    background: #017c66;
+    color: #fff;
+}
+.btn-primary{
+    background-color: #004D79;
+    border-radius: 34px;
+    padding: 8px 24px;
+    color: white;
+}
+.gap{
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+.search-bar{
+    background-color: white;
+    border-radius: 100px;
+}
+#ptab {
+    width: 100%;
+    border-radius: 100px;
+    text-align: left;
+}
+.nav-item-tab{
+    width: 33.3%;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #141414;
+    background-color: #f7f7f7;
+}
+.border-right{
+    border-right: 1px solid #AAAAAA;
+}
+.doctorimg{
+    position: absolute;
+    width: 386px;
+    height: 401.03px;
+    left: 1050px;
+    top: 345px;
+}
+.search-header{
+    color: black;
+    font-size: 14px;
+    font-weight: 700;
+}
+.search-detail{
+    color:  #717171;
+    font-size: 12px;
+    font-weight: 500;
+}
+.date{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.search-date {
+    background-color: #2CD182;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+    width: 47px;
+    height: 47px;
+    border-radius: 65px;
+}
+.features{
+    margin-bottom: 65px;
+}
+.feature-header p{
+    color: #929292;
+}
+.videocall{
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+.equal{
+    padding-bottom: 30px;
+}
+.count{
+background-color:#004D79;
+color: white;
+margin-bottom: 65px;
+}
+.number-header{
+    text-align: center;
+    padding: 49px 0 30px 0;
+}
+.Count-matters {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-bottom: 30px;
+}
+.numbers{
+    border-left: 1px solid rgba(255, 255, 255, 0.459);
+    padding: 0 0 0 2em;
+}
+.textcolor{
+    color: white;
+}
+.doctoclick{
+    margin-bottom: 65px;
+    background-color: white;
+}
+.right-side h2{
+    color: #000000;
+}
+.benifits{
+    margin-bottom: 65px;
+    background-color: white;
+}
+.services{
+    text-align: center;
+    background-color: #F8F8F8;
+    margin-bottom: 65px;
+}
+.service-header h2{
+    color: #000000;
+    margin-bottom: 20px;
+}
+.service-header{
+   text-align: center;
+   padding: 49px 0 30px 0;
+}
+.tick-image{
+   text-align: left;
+}
+.services-row{
+   padding-bottom:49px ;
+}
+.benifits-left{
+    align-items: center;
+}
+.benifits-left h2{
+    color: #000000;
+}
+.benifits-left p{
+    color: #000000;
+}
+.leftalign{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: flex-start;
+}
+.decorate {
+    text-align:left;
+}
+.client-speak{
+    background-color:  #00A284;
+}
+.client-header{
+        text-align: center;
+        padding: 49px 0 30px 0;
+}
+.footer{
+    background-color: #000C13;
+}
+.subscribe{
+    padding: 4em 0;
+}
+.subscribe-left{
+    padding: 4em;
+}
+.card-subscribe{
+    background: #004D79;
+    border-radius: 16px;
+}
+.form-control:focus {
+    color: #212529;
+    background-color: #fff;
+    border-color: none;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem #18191f2f;
+}
+.icon{
+    margin-left: 20px;
+    background: rgb(255 255 255 / 24%);
+    padding: 9px;
+    border-radius: 30px;
+}
+.footer{
+    color: white;
+}
+.listing{
+    padding-bottom: 65px;
+}
+.profile-image{
+  width: 75px;
+  height: 75px;
+  margin: auto;
+  border-radius: 50%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+.profile-details{
+    color: white !important;
+}
+.clients {
+    position: relative;
+    padding: 1em 0 9em;
+}
+.client-card{
+    padding: 2em 2em 4em;
+    margin-right: 20px;
+}
+.client-profile{
+    position: absolute;
+    bottom: 50px;
+    left: 113px;
+}
+.main-landing{
+    background: url(../front/images/home-page/bg-1.png);
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow: auto;
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+}
+.collapse-user{
+    justify-content: flex-end;
+}
+a.user-link {
+    text-decoration: none;
+    color: black;
+    padding-right: 18px;
+    font-weight: 400;
+    font-size: 13px;
+    font-family: 'Manrope', sans-serif;
+}
+.left{
+    background:#002E48;
+}
+.right{
+    position: relative;
+}
+.image{
+    text-align: center;
+}
+.discription{
+    padding: 2em 2em 0;
+}
+.loginright-side{
+    padding: 12em 3em 8em;
+}
+.loginleft-side{
+    padding: 10em 0;
+}
+.login-tab{
+    background:#F8F8F8;
+    width: 41%;
+    border-radius: 100px;
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 1px solid #E8E8E8;
+}
+.nav-item-logintab {
+    width: 50%;
+}
+.form-control-lg {
+    min-height: calc(1.5em + 1rem + 2px);
+    padding: 0.7rem 0 0.7rem 2.5rem;
+    font-size: 1rem;
+    border-radius: 10px;
+    border: 2px solid rgba(169, 169, 169, 0.28);
+}
+.btn-success-login {
+    background: #00A384;
+    border-radius: 10px;
+    padding: 9px 26px;
+    color: white;
+    font-size: 13px;
+    font-weight: 400;
+    font-family: 'Manrope', sans-serif;
+}
+.image{
+    width: 400px;
+}
+.inputwithicon{
+        position: relative;
+}
+.inputwithicon img{
+        position: absolute;
+        bottom: 16px;
+        left: 14px;
+}
+.navbar.navbar-menu{
+    position: absolute !important;
+}    
+.numbers-count {
+    border-left: 1px solid rgba(255, 255, 255, 0.459);
+    padding: 0 0 0 2em;
+}
+.main-doc{
+    padding-top: 5em;
+}
